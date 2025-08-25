@@ -27,12 +27,21 @@ share/python-wheels/
 .installed.cfg
 *.egg
 
-# Heavy data files and models
-/data/
-/saved_models/
+# Heavy data files and models  
+/data/*
+!/data/.gitkeep
+/saved_models/*
+!/saved_models/.gitkeep
 
-# Result folders with images and evaluations
-/results_improved/
+# Specific heavy files to ignore
+*.pth
+*.pt
+*.jpg
+!results_improved/*.jpg
+*.json
+!results_improved/*.json
+
+# Result folders with images and evaluations (keep results_improved for README demo)
 /results_20shot/
 
 # Virtual environments

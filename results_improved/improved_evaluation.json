@@ -1,0 +1,16 @@
+{
+  "mAP": 0.007376690849642844,
+  "mAP_50": 0.036774019934048,
+  "mAP_75": 0.0002088051942449147,
+  "detection_count": {
+    "airplane": 540,
+    "tennis court": 224,
+    "baseball diamond": 296
+  },
+  "total_detections": 1060,
+  "per_class_AP": {
+    "airplane": 0.036774019934048,
+    "baseball diamond": 0.023671612430941104,
+    "tennis court": 0.00955390042734998
+  }
+}
