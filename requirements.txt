@@ -1,0 +1,50 @@
+# Core ML/DL libraries
+torch>=1.12.0
+torchvision>=0.13.0
+torchaudio>=0.12.0
+
+# MMDetection ecosystem
+mmdet>=3.0.0
+mmcv>=2.0.0
+mmengine>=0.7.0
+
+# Computer Vision
+opencv-python>=4.6.0
+Pillow>=9.0.0
+albumentations>=1.3.0
+
+# Data processing
+numpy>=1.21.0
+pandas>=1.4.0
+scipy>=1.8.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.10.0
+
+# Interactive demo
+gradio>=3.20.0
+streamlit>=1.20.0
+
+# Jupyter and notebooks
+jupyter>=1.0.0
+ipywidgets>=7.6.0
+
+# Utilities
+tqdm>=4.64.0
+pyyaml>=6.0
+tensorboard>=2.9.0
+wandb>=0.13.0
+
+# Image processing
+imageio>=2.19.0
+scikit-image>=0.19.0
+
+# Evaluation metrics
+pycocotools>=2.0.6
+
+# Development tools
+black>=22.0.0
+flake8>=4.0.0
+pytest>=7.0.0
